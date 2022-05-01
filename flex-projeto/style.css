@@ -42,6 +42,7 @@ header .list-item {
     max-width: 260px;
     justify-content: space-between;
     align-items: center;
+    color: #fff;
 }
 
 .list-item li a {
@@ -70,7 +71,7 @@ header .menu {
 
 }
 
-.apresentacao .texto-apresentacao a {
+.btn {
     background-color: #122a57;
     color: #fff;
     text-align: center;
@@ -110,4 +111,131 @@ header .menu {
    
     margin-bottom: 10px;
     width: 90%;
+}
+
+#quem-somos img{
+   min-width: 400px;
+}
+
+.container-externo{
+    background-color: #122a57;
+    width: 100%;
+}
+#servicos{
+    flex-direction: column;
+   padding-top: 50px;
+   padding-bottom: 100px;
+}
+
+#servicos h2{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+.list-servicos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list-servicos .item-servico{
+    text-align: center;
+   
+
+}
+
+.item-servico a{
+    width: 220px;
+    background-color: #fff;
+    border-radius: 30px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #122a57;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.item-servico p{
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.item-servico img{
+    width: 80%;
+    margin: auto;
+}
+
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+
+}
+.item-plano{
+    flex: 1;
+    border: 5px solid #122a57;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+.item-plano .btn{
+    margin: auto;
+    margin-bottom: 20px;
+
+
+}
+
+.item-plano h3{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+   
+
+}
+.item-plano h3::after{
+    content: "";
+    background-color: #122a57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.item-plano ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.item-plano ul li{
+    flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-plano ul li::before{
+   content: "";
+   width: 10px;
+   height: 10px;
+   background-color: #122a57;
+   margin-right: 5px;
+
 }
